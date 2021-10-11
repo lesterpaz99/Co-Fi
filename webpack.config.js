@@ -37,7 +37,7 @@ module.exports = {
 		new MiniCssExtractPlugin(),
 		new CopyPlugin({
       patterns: [
-        { from: "./src/media/*", to: "media" },
+        { from: './media/*'},
       ],
     }),
 	],
