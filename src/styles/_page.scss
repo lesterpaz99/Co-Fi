@@ -1,0 +1,15 @@
+body {
+  font-size: 1.6rem;
+  inline-size: 100vw;
+  block-size: 100vh;
+  max-inline-size: 100vw;
+  max-block-size: 100vh;
+  background: url(./media/Neonsamurai.jpg) no-repeat;
+}
+
+.container {
+  padding: 2rem;
+  block-size: 100%;
+  inline-size: 100%;
+  background: linear-gradient(0deg, rgba(0 0 0 / 84%) 24%, rgba(0,0,0,0.05563722070859589) 100%);
+}
