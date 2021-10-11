@@ -1,5 +1,3 @@
-$primary-color: pink;
-
-body {
-  background-color: $primary-color;
-}
+@use './styles/base';
+@use './styles/header';
+@use './styles/page';
