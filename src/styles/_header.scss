@@ -1,3 +1,6 @@
+@forward './global';
+@use './global';;
+
 .header {
   color: rgba($color: #000, $alpha: 0.8);
 }
@@ -11,7 +14,7 @@
 }
 
 .logo h1 {
-  font-family: 'Staatliches', cursive;
+  font-family: global.$font1;
 }
 
 .header h3 {

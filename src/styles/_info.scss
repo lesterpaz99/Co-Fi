@@ -1,0 +1,28 @@
+@forward './global';
+@use './global';;
+
+.img-container, .titles {
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+}
+
+.player-img {
+  border-radius: 1.2rem;
+  inline-size: 90%;
+}
+
+.song-name, .artist {
+  color: whitesmoke;
+}
+
+.song-name {
+  font-size: 2.4rem;
+  font-family: global.$font2;
+  opacity: 0.9;
+}
+
+.artist {
+  font-size: 1.6rem;
+  opacity: 0.7;
+}

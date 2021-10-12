@@ -4,4 +4,3 @@ import './main.scss';
 
 const audioPlayer: HTMLAudioElement | null = document.querySelector('#player');
 
-
