@@ -1,0 +1,56 @@
+footer {
+  inline-size: 100%;
+}
+
+.buttons {
+  inline-size: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-block-start: 1rem;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.back-btn {
+  transform: rotate(180deg);
+}
+
+.back-btn:active {
+  transform: rotate(180deg) scale(1.2);
+}
+
+.back-btn, .forward-btn {
+  block-size: 3.4rem;
+  inline-size: 3.4rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.back-btn img, .forward-btn img {
+  block-size: 2.4rem;
+  inline-size: 2.4rem;
+}
+
+.forward-btn:active {
+  transform: scale(1.2);
+}
+
+.play-btn {
+  block-size: 6rem;
+  inline-size: 6rem;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.play-btn img {
+  block-size: 3.2rem;
+  inline-size: 3.2rem;
+}
+
