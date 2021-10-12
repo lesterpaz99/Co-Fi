@@ -11,6 +11,10 @@
 	"keywords": [],
 	"author": "Obed Paz <lesterpaz99@gmail.com>",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lesterpaz99/Co-Fi"
+	},
 	"devDependencies": {
 		"copy-webpack-plugin": "^9.0.1",
 		"css-loader": "^6.4.0",
