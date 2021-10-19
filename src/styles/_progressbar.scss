@@ -1,0 +1,25 @@
+.progressbar-wrapper {
+  inline-size: 100%;
+  display: grid;
+  place-items: center;
+  margin-block-end: 2rem;
+  position: relative;
+}
+
+.progress-duration {
+  inline-size: 90%;
+  block-size: 4px;
+  background-color: gray;
+  border-radius: 8rem;
+  position: absolute;
+}
+
+.progressbar {
+  border-radius: 8rem;
+  background-color: whitesmoke;
+  position: absolute;
+  width: 90%;
+  height: 4px;
+  will-change: transform;
+  transform-origin: left center;
+}
