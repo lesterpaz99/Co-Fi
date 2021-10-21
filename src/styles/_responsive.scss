@@ -1,0 +1,14 @@
+@media screen and (max-width: 420px) {
+	body {
+		backdrop-filter: none;
+		background: none;
+	}
+	body .container {
+		border-radius: 0;
+		border: none;
+		inline-size: 100vw;
+		block-size: 100vh;
+		justify-content: center;
+		backdrop-filter: none;
+	}
+}
