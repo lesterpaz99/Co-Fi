@@ -1,25 +1,25 @@
 @forward './global';
-@use './global';;
+@use './global';
 
 .header {
-  color: rgba($color: #000, $alpha: 0.8);
-}
+	color: rgba($color: #000, $alpha: 0.8);
 
-.header .logo {
-  padding: 0.2rem 1.2rem;
-  background-color: whitesmoke;
-  border-radius: 8px;
-  display: inline-block;
-  opacity: 0.8;
+	.logo {
+		padding: 0.2rem 1.2rem;
+		background-color: whitesmoke;
+		border-radius: 8px;
+		display: inline-block;
+		opacity: 0.8;
+	}
+
+	h3 {
+		color: whitesmoke;
+		text-shadow: 2px 2px rgba($color: #000, $alpha: 0.1);
+		opacity: 0.8;
+		margin-block-start: 1rem;
+	}
 }
 
 .logo h1 {
-  font-family: global.$font1;
-}
-
-.header h3 {
-  color: whitesmoke;
-  text-shadow: 2px 2px rgba($color: #000, $alpha: 0.1);
-  opacity: 0.8;
-  margin-block-start: 1rem;
+	font-family: global.$font1;
 }
